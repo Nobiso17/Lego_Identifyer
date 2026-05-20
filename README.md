@@ -1,4 +1,4 @@
-# 🧱 LEGO Brick Classifier
+# LEGO Brick Classifier
 
 A convolutional neural network (CNN) that identifies LEGO brick types from images, with support for real-time webcam inference. Built using transfer learning on MobileNetV2.
 
@@ -24,6 +24,7 @@ lego-brick-classifier/
 ├── lego_brick_classifier.ipynb   # Main notebook (full pipeline)
 ├── requirements.txt              # Python dependencies
 ├── README.md                     # This file
+├── lego_dataset.zip              # Zipped dataset
 └── models/                       # Saved model outputs (created at runtime)
     ├── best_lego_model.keras
     ├── best_lego_model_finetuned.keras
@@ -38,7 +39,7 @@ lego-brick-classifier/
 The notebook expects a dataset folder where each subdirectory is a class (brick type) containing images:
 
 ```
-dataset/
+lego_dataset/
 ├── brick corner 1x2x2/
 │   ├── 2357 brick corner 1x2x2 000L.png
 │   └── 2357 brick corner 1x2x2 000R.png

@@ -47,7 +47,7 @@ dataset/
 └── ...
 ```
 
-The class label is derived from the folder name. Images can be `.jpg`, `.jpeg`, `.png`, `.bmp`, or `.webp`.
+The class label is derived from the folder name. Images are `.png`.
 
 > **Dataset used:** [Classify Bricks: Compare Transfer Learning Model](https://www.kaggle.com/code/databeru/classify-bricks-compare-transfer-learning-model/input?select=dataset). Transformed for each class to be in its own folder and stored in Google Drive. Pulled into Colab through `ZIP_PATH` in the config section.
 

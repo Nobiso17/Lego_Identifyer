@@ -49,7 +49,7 @@ dataset/
 
 The class label is derived from the folder name. Images can be `.jpg`, `.jpeg`, `.png`, `.bmp`, or `.webp`.
 
-> **Dataset used:** [Classify Bricks: Compare Transfer Learning Model](https://www.kaggle.com/code/databeru/classify-bricks-compare-transfer-learning-model/input?select=dataset) or similar. Store in Google Drive and update `ZIP_PATH` in the config section.
+> **Dataset used:** [Classify Bricks: Compare Transfer Learning Model](https://www.kaggle.com/code/databeru/classify-bricks-compare-transfer-learning-model/input?select=dataset). Transformed for each class to be in its own folder and stored in Google Drive. Pulled into Colab through `ZIP_PATH` in the config section.
 
 ---
 

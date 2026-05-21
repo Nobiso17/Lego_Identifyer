@@ -21,14 +21,9 @@ This project trains an image classifier to recognize LEGO brick part numbers fro
 
 ```
 lego-brick-classifier/
-├── lego_brick_classifier.ipynb   # Main notebook (full pipeline)
-├── requirements.txt              # Python dependencies
 ├── README.md                     # This file
-└── models/                       # Saved model outputs (created at runtime)
-    ├── best_lego_model.keras
-    ├── best_lego_model_finetuned.keras
-    ├── lego_saved_model/
-    └── class_labels.json
+├── lego_brick_classifier.ipynb   # Main notebook (full pipeline)
+└── requirements.txt              # Python dependencies
 ```
 
 ---

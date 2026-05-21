@@ -24,7 +24,6 @@ lego-brick-classifier/
 ├── lego_brick_classifier.ipynb   # Main notebook (full pipeline)
 ├── requirements.txt              # Python dependencies
 ├── README.md                     # This file
-├── lego_dataset.zip              # Zipped dataset
 └── models/                       # Saved model outputs (created at runtime)
     ├── best_lego_model.keras
     ├── best_lego_model_finetuned.keras
